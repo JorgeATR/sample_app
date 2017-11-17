@@ -1,0 +1,4 @@
+jorge:
+  name: Jorge Alvarez
+  email: jorge@alvarez.com
+  password_digest: <%= User.digest('password') %>
